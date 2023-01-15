@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-sqlcipher"
+    version="1.0.0">
+    <name>Sqlcipher</name>
+    <description>Sqlcipher Cordova Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,sqlcipher</keywords>
+
+    <!-- platform requirements -->
+    <engines>
+        <engine name="cordova-electron" version=">=3.0.0" />
+    </engines>
+
+    <!-- Application's front-end code that  communicates with the native layer. -->
+    <js-module src="www/sqlcipher.js" name="sqlcipher">
+        <clobbers target="sqlcipher" />
+    </js-module>
+
+    <!-- electron platform configs -->
+    <platform name="electron">
+        <framework src="src/electron" />
+    </platform>
+</plugin>

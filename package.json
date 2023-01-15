@@ -1,0 +1,27 @@
+{
+    "name": "cordova-plugin-sqlcipher",
+    "version": "1.0.0",
+    "description": "sqlcipher Cordova Plugin",
+    "keywords": [
+      "ecosystem:cordova",
+      "cordova",
+      "cordova-electron",
+      "sqlcipher"
+    ],
+    "author": "Erisu",
+    "license": "Apache-2.0",
+    "cordova": {
+      "id": "cordova-plugin-sqlcipher",
+      "platforms": [
+        "electron"
+      ]
+    },
+    "engines": {
+      "cordovaDependencies": {
+        "1.0.0": {
+          "cordova": ">100",
+          "cordova-electron": ">=3.0.0"
+        }
+      }
+    }
+  }
