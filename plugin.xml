@@ -15,6 +15,7 @@
     <!-- Application's front-end code that  communicates with the native layer. -->
     <js-module src="www/sqlcipher.js" name="sqlcipher">
         <clobbers target="sqlcipher" />
+        <runs />
     </js-module>
 
     <!-- electron platform configs -->
